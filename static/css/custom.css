@@ -1,3 +1,9 @@
+img {
+   max-width: 800px;
+}
+iframe{
+    margin: auto;
+}
 .sidebar1 {
     width: 25%
 }
@@ -10,20 +16,27 @@
     width: 25%
 }
 
+html, body, main, .wrapper, .document-header, .document-footer {
+    min-width: 700px !important;
+}
+
 main {
-    width: calc(75% - 2px)
+    /*width: calc(75% - 2px)*/
 }
 
 .wrapper {
-    max-width: 1366px
+    max-width: 1366px;
+    min-width: 800px;
 }
 
 .document-header {
-    max-width: 1366px
+    max-width: 1366px;
+    min-width: 800px;
 }
 
 .document-footer {
-    max-width: 1366px
+    max-width: 1366px;
+    min-width: 800px;
 }
 
 @media only screen and (max-width: 956px) {
@@ -31,7 +44,9 @@ main {
     .sidebar1,
     .sidebar2,
     .sidebar3 {
-        width: 100%
+        width: 100%;
+        min-width: 800px;
+
     }
     .two-column.content-right main,
     .three-column.content-center main,

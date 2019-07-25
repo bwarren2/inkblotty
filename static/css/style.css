@@ -409,7 +409,7 @@ input[type="search"] {
       text-shadow: none !important; } }
 
 a {
-  color: #767676;
+  color: #252BE7;
   text-decoration: none;
   transition: color .2s, opacity .2s, outline .2s; }
   a:focus, a:hover {
@@ -660,7 +660,7 @@ body > a[href="#content"] {
   padding: 1px;
   position: relative; }
   .wrapper a {
-    color: #767676; }
+    color: #252BE7; }
     .wrapper a:focus, .wrapper a:hover {
       color: #000; }
 
@@ -998,8 +998,11 @@ form.search input {
 .post-content {
   word-wrap: break-word; }
   .post-content img {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
     border-radius: .3rem;
-    max-width: 100%; }
+     }
 .post-footer {
   border-bottom: thin solid #767676;
   clear: both;
